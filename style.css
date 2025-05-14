@@ -2,13 +2,26 @@ body {
   font-family: "Hiragino Kaku Gothic ProN";
 }
 
+.wrapper {
+  padding: 0 4%;
+}
+
+.wrapper h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.wrapper p {
+  font-size: 14.4px;
+}
+
 #logo {
   width: 120px;
 }
 
 header {
   display: flex;
-  width: 80%;
+  width: 960px;
   height: 60px;
   align-items: center;
   margin: 0 auto;
@@ -30,6 +43,7 @@ li {
 
 #header ul li {
   margin-left: 30px;
+  font-size: 14.4px;
 }
 
 #mainvisual {
@@ -42,5 +56,46 @@ li {
 .sec-title {
   text-align: center;
   text-decoration: underline;
-  text-underline-offset: 10px;
+  text-underline-offset: 12px;
+  margin-bottom: 60px;
+  font-size: 32px;
+  text-decoration-thickness: 1px;
+}
+
+#about-picture {
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+#about-wrapper {
+  display: flex;
+  width: 528px;
+  height: 100px;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+#Bicycle ul {
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+  margin-bottom: 110px;
+}
+
+#Bicycle li {
+  text-align: center;
+}
+
+#Bicycle img {
+  display: block;
+  width: 274.4px;
+  height: 182px;
+}
+
+footer {
+  text-align: center;
+  color: #383E45;
+  font-size: 8px;
 }
